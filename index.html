@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Music demo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="piano">
+            <div class="upperPanel">
+                <div class="chooser">
+                    <div class="text">Choose the sound</div>
+                    <select name="Choose the sound" id="soundSelect" onchange="onChange()">
+                        <option value="Drums">Drums</option>
+                        <option value="Ding Dong's">Ding Dong's</option>
+                        <option value="Twinkles">Twinkles</option>
+                    </select>
+                </div>
+                <input type="button" id="record" value="Record" class="mainButton">
+                <input type="button" id="play" value="Play" class="mainButton">
+            </div>
+            <div class="keys">
+                <input id="A" type="button" value="A" class="key">
+                <input id="S" type="button" value="S" class="key">
+                <input id="D" type="button" value="D" class="key">
+                <input id="F" type="button" value="F" class="key">
+                <input id="G" type="button" value="G" class="key">
+                <input id="H" type="button" value="H" class="key">
+                <input id="J" type="button" value="J" class="key">
+            </div>
+        </div>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@magenta/music@^1.0.0"></script>
+    <script src="drums.js"></script>
+    <script src="twinkles.js"></script>
+    <script src="dingdongs.js"></script>
+    <script src="index.js"></script>
+</html>

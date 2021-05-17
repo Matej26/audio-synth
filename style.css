@@ -1,0 +1,94 @@
+body {
+    background-color:coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    background-color: coral;
+    width: 50%;
+    height: 50%;
+    border-color: black;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.key {
+    height: 260px;
+    width: 80px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    margin: 1px;
+    font-size: 40px;
+}
+
+.key:active {
+    background-color: coral;
+}
+
+.piano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 10px;
+    padding: 10px;
+    background-color:#008080;
+}
+
+.text {
+    font-size: 32px;
+    margin-right: 6px;
+}
+
+.chooser {
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 5px;
+    background-color: coral;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+}
+
+.upperPanel {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    align-items: center;
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mainButton {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 5px;
+    background-color: coral;
+    font-size: 32px;
+}
+
+.mainButton:hover {
+    background-color: #008080;
+}
