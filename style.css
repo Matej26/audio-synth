@@ -1,17 +1,8 @@
 body {
-    background-color:coral;
+    background-color:#FFFF00;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-canvas {
-    background-color: coral;
-    width: 50%;
-    height: 50%;
-    border-color: black;
-    border-style:solid;
-    border-radius: 10px;
 }
 
 .key {
@@ -26,7 +17,7 @@ canvas {
 }
 
 .key:active {
-    background-color: coral;
+    background-color: #FFFF00;
 }
 
 .piano {
@@ -56,7 +47,7 @@ canvas {
     border-color: black;
     border-style: solid;
     margin-left: 5px;
-    background-color: coral;
+    background-color: #FFFF00;
 }
 
 .keys {
@@ -85,7 +76,7 @@ canvas {
     border-color: black;
     border-style: solid;
     margin-left: 5px;
-    background-color: coral;
+    background-color: #FFFF00;
     font-size: 32px;
 }
 
