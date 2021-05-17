@@ -16,7 +16,15 @@ body {
     font-size: 40px;
 }
 
-.key:active {
+.keyActive {
+    height: 260px;
+    width: 80px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    margin: 1px;
+    font-size: 40px;
     background-color: #FFFF00;
 }
 
