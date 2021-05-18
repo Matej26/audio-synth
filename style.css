@@ -16,18 +16,6 @@ body {
     font-size: 40px;
 }
 
-.keyActive {
-    height: 260px;
-    width: 80px;
-    border-radius: 10px;
-    border-color: black;
-    border-style: solid;
-    background-color: white;
-    margin: 1px;
-    font-size: 40px;
-    background-color: #FFFF00;
-}
-
 .piano {
     display: flex;
     flex-direction: column;
@@ -72,7 +60,7 @@ body {
     border-style: solid;
     align-items: center;
     background-color: white;
-    max-width: 600px;
+    max-width: 800px;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -86,6 +74,7 @@ body {
     margin-left: 5px;
     background-color: #FFFF00;
     font-size: 32px;
+    min-width: 120px;
 }
 
 .mainButton:hover {
